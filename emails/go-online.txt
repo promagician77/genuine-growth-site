@@ -1,0 +1,15 @@
+Your trade prices are now online
+
+Hi {{ first_name | default: "there" }},
+
+You can now place Genuine Solutions orders online, at the same trade prices you have today. Nothing changes with your account manager: this is simply quicker for the orders you place every week.
+
+- Your own price list, shown as soon as you log in
+- Live stock on chargers, cables, power banks, audio and protection
+- Bulk upload: paste SKUs or upload a CSV and the basket fills itself
+- Saved lists for the lines you reorder most
+
+Log in to order online: https://genuinesolutions.co.uk/account/login?utm_source=email&utm_medium=email&utm_campaign=go-online-1&utm_content=text
+
+You are receiving this because you hold a trade account with Genuine Solutions.
+Unsubscribe from marketing emails: {{ unsubscribe_url }}

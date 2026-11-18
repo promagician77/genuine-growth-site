@@ -1,0 +1,9 @@
+{
+  "name": "trade-growth-plan-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static demo: 90-day B2B growth plan with email-basis checker, Meta budget planner, tracking drill results and checked emails. No build step.",
+  "scripts": {
+    "start": "node init && node -e \"console.log('Static site: deploy this folder as-is, or serve it with any static server.')\""
+  }
+}

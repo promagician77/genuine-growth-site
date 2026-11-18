@@ -1,0 +1,16 @@
+Your trade account is approved
+
+Hi {{ first_name | default: "there" }},
+
+Your account is open and your trade prices are live. If you are not sure where to start, these are three easy first orders:
+
+- Counter add-ons: chargers and cables for the devices your customers bring in most
+- Protection: Mutural Ice Series clear MagSafe-compatible cases and Pure Series silicone cases
+- Audio: Sudio, now distributed in the UK by Genuine Solutions
+
+Minimum first order: £[minimum order] ex VAT. Delivery: [delivery promise and cut-off].
+
+Start your first order: https://genuinesolutions.co.uk/collections/all?utm_source=email&utm_medium=email&utm_campaign=first-order-1&utm_content=text
+
+You are receiving this because you applied for a Genuine Solutions trade account.
+Unsubscribe from marketing emails: {{ unsubscribe_url }}

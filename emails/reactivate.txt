@@ -1,0 +1,17 @@
+New since your last order
+
+Hi {{ first_name | default: "there" }},
+
+It has been a while since your last order, so here is what has changed:
+
+- Sudio audio: Genuine Solutions now handles the brand's UK distribution
+- Mutural cases: clear MagSafe-compatible and silicone ranges
+- Recovered, graded stock: tested accessories from our recovery and reuse work
+- Order online at your own trade prices, with live stock
+
+See what's new: https://genuinesolutions.co.uk/collections/new?utm_source=email&utm_medium=email&utm_campaign=reactivate-1&utm_content=text
+
+Orders over £[free delivery threshold] ex VAT ship free.
+
+You are receiving this because you have bought from Genuine Solutions before.
+Unsubscribe from marketing emails: {{ unsubscribe_url }}

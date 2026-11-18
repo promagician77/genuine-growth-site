@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Genuine Solutions: 90-day trade growth plan</title>
+<meta name="description" content="A 90-day plan to get more businesses trading online with Genuine Solutions: who can be emailed, Meta for trade buyers, Shopify to Meta tracking, checked emails and new markets.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/instrument-sans-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap top-in">
+    <p class="brand">Trade growth plan for <strong>Genuine Solutions</strong></p>
+    <nav aria-label="Sections">
+      <a href="#email">Who you can email</a>
+      <a href="#meta">Meta for trade buyers</a>
+      <a href="#tracking">Shopify to Meta</a>
+      <a href="#emails">Emails</a>
+      <a href="#markets">New markets</a>
+      <a href="#days">90 days</a>
+    </nav>
+    <p class="by">Prepared by Santiago</p>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero wrap" aria-labelledby="hero-h">
+    <h1 id="hero-h">More businesses trading with Genuine Solutions online, counted at every step from application to reorder.</h1>
+    <p class="lede">A 90-day plan for the new Shopify and SparkLayer store. Every campaign is judged by the same four steps, and each step is sent to Meta from Shopify, so ads learn from approved trade accounts and first orders, not clicks.</p>
+    <ol class="journey" aria-label="The trade account journey">
+      <li><span class="step">Applied</span><span class="ev">Lead</span><span class="how">Pixel, when the SparkLayer form is sent</span></li>
+      <li><span class="step">Approved</span><span class="ev">CompleteRegistration</span><span class="how">Shopify customer created with the approval tag</span></li>
+      <li><span class="step">First order</span><span class="ev">Purchase, first_order</span><span class="how">Paid order, ex VAT</span></li>
+      <li><span class="step">Reorders</span><span class="ev">Purchase</span><span class="how">Email and retargeting keep it going</span></li>
+    </ol>
+    <p class="proof" id="hero-proof"></p>
+  </section>
+
+  <section id="email" class="band" aria-labelledby="email-h">
+    <div class="wrap">
+      <h2 id="email-h">Who you can email, before anyone presses send</h2>
+      <p class="intro" id="email-intro"></p>
+      <div class="split">
+        <form id="pecr" class="panel" aria-describedby="pecr-note">
+          <h3>Check one contact</h3>
+          <label for="pf-form">Legal form</label>
+          <select id="pf-form" name="legalForm"></select>
+          <label for="pf-source">Where the email address came from</label>
+          <select id="pf-source" name="source"></select>
+          <fieldset>
+            <legend>What you have on record</legend>
+            <label class="chk"><input type="checkbox" name="optOutOffered" checked> They could refuse marketing when the details were collected</label>
+            <label class="chk"><input type="checkbox" name="consent"> Recorded consent to marketing email from Genuine Solutions</label>
+            <label class="chk"><input type="checkbox" name="namedPerson"> The address is a named person's (jo@shop.co.uk)</label>
+            <label class="chk"><input type="checkbox" name="partner"> The email promotes another organisation, not your own products</label>
+            <label class="chk"><input type="checkbox" name="optedOut"> They have opted out</label>
+          </fieldset>
+          <p id="pecr-note" class="small">A planning aid based on the ICO's PECR guidance, not legal advice.</p>
+        </form>
+        <div class="verdict" id="pecr-out" aria-live="polite"></div>
+      </div>
+      <h3 class="sub">Every combination, with an opt-out offered at collection and no consent on record. "Consent" means get consent before emailing.</h3>
+      <div class="scroll" tabindex="0" role="region" aria-label="Email basis by legal form and source">
+        <table class="grid" id="pecr-grid"></table>
+      </div>
+    </div>
+  </section>
+
+  <section id="meta" aria-labelledby="meta-h">
+    <div class="wrap">
+      <h2 id="meta-h">Meta that finds trade buyers, and a budget it can learn from</h2>
+      <p class="intro">Eight segments from the brief. The three core ones start on Meta in Month 2; existing customers start in Month 1; the new markets lean on LinkedIn, trade press and tenders.</p>
+      <div class="tabs" role="tablist" aria-label="Segments" id="seg-tabs"></div>
+      <div class="seg panel" id="seg-panel" role="tabpanel" tabindex="0"></div>
+
+      <h3 class="sub" id="plan-h">Budget planner: what the spend buys, and which event Meta can optimise on</h3>
+      <p class="small" id="plan-note"></p>
+      <div class="planner">
+        <form id="planner" class="panel" aria-labelledby="plan-h">
+          <fieldset>
+            <legend>Meta acquisition spend (£ a month)</legend>
+            <div class="row3">
+              <label>Month 1<input type="number" name="s0" min="0" step="100" inputmode="numeric"></label>
+              <label>Month 2<input type="number" name="s1" min="0" step="100" inputmode="numeric"></label>
+              <label>Month 3<input type="number" name="s2" min="0" step="100" inputmode="numeric"></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Assumptions to replace with Month 1 data</legend>
+            <div class="row2" id="assume"></div>
+          </fieldset>
+        </form>
+        <div>
+          <div class="scroll" tabindex="0" role="region" aria-label="Planner results by month">
+            <table class="data" id="plan-table"></table>
+          </div>
+          <figure class="chart-fig">
+            <figcaption id="chart-cap">Events a week in Month 3, against the roughly 50 a week Meta needs per ad set to leave the learning phase</figcaption>
+            <div class="chart" id="chart"></div>
+            <div class="tip" id="chart-tip" role="status" hidden></div>
+          </figure>
+          <p class="advice" id="advice" aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tracking" class="band" aria-labelledby="tracking-h">
+    <div class="wrap">
+      <h2 id="tracking-h">Shopify to Meta, tested with a week of traffic</h2>
+      <p class="intro" id="tracking-intro"></p>
+      <div class="scroll" tabindex="0" role="region" aria-label="Events sent to Meta">
+        <table class="data" id="ladder">
+          <thead><tr><th scope="col">Step</th><th scope="col">Meta event</th><th scope="col">Comes from</th><th scope="col">action_source</th><th scope="col">Used for</th></tr></thead>
+          <tbody>
+            <tr><td>Applied</td><td class="mono">Lead</td><td>Pixel on the SparkLayer form's success state</td><td class="mono">website</td><td>Optimisation while volumes are low</td></tr>
+            <tr><td>Approved</td><td class="mono">CompleteRegistration</td><td>Shopify <span class="mono">customers/create</span> with the approval tag</td><td class="mono">system_generated</td><td>Audiences, reporting, optimisation once frequent</td></tr>
+            <tr><td>First order</td><td class="mono">Purchase</td><td>Shopify <span class="mono">orders/paid</span>, <span class="mono">first_order: true</span></td><td class="mono">website</td><td>Cost per first order; value ex VAT</td></tr>
+            <tr><td>Rep order</td><td class="mono">Purchase</td><td>Draft orders keyed by a sales rep</td><td class="mono">system_generated</td><td>Reporting only (<span class="mono">opt_out</span>)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3 class="sub">The drill</h3>
+      <ul class="checks" id="drill-checks"></ul>
+      <div class="split">
+        <div>
+          <h3 class="sub">What Meta receives for a first order</h3>
+          <pre class="code" id="sample" tabindex="0" aria-label="Sample Purchase event"></pre>
+        </div>
+        <form id="hasher" class="panel">
+          <h3>Try the hashing</h3>
+          <p class="small">Runs in your browser with the same code the drill used. Nothing is sent anywhere.</p>
+          <label for="h-email">Email</label><input id="h-email" name="email" value=" Jo.Smith@RepairShop.co.uk " autocomplete="off">
+          <label for="h-phone">Phone</label><input id="h-phone" name="phone" value="+44 (0)7700 900123" autocomplete="off">
+          <label for="h-zip">Postcode</label><input id="h-zip" name="zip" value="KT9 1SJ" autocomplete="off">
+          <dl class="hashes" id="h-out" aria-live="polite"></dl>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="emails" aria-labelledby="emails-h">
+    <div class="wrap">
+      <h2 id="emails-h">Three emails, checked before they send</h2>
+      <p class="intro" id="emails-intro"></p>
+      <div class="tabs" role="tablist" aria-label="Emails" id="mail-tabs"></div>
+      <div class="mail" id="mail-panel" role="tabpanel" tabindex="0">
+        <iframe id="mail-frame" title="Email preview" sandbox></iframe>
+        <div>
+          <p class="mail-meta" id="mail-meta"></p>
+          <ul class="checks tight" id="mail-checks"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="markets" class="band" aria-labelledby="markets-h">
+    <div class="wrap">
+      <h2 id="markets-h">New markets: IT resellers, MSPs, corporate and public sector</h2>
+      <p class="intro">These buyers are reached through different doors from repair shops. The first 90 days test one door each and build what later months need.</p>
+      <div class="cards" id="markets-cards"></div>
+      <h3 class="sub">Trade press for stories and launches</h3>
+      <ul class="press">
+        <li><strong>Mobile News</strong>: has covered Genuine Solutions' Sudio and Mutural deals; the channel for independents and repairers.</li>
+        <li><strong>Comms Business</strong>: dealers and resellers in mobile and telecoms.</li>
+        <li><strong>PCR</strong>: tech retail and distribution; runs distributor profiles.</li>
+        <li><strong>IT Channel Oxygen</strong>: UK IT resellers and MSPs; publishes a yearly list of distributors resellers should know.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="days" aria-labelledby="days-h">
+    <div class="wrap">
+      <h2 id="days-h">The 90 days, week by week</h2>
+      <p class="intro">Practical delivery from the first fortnight: tracking and the existing-customer campaign go live in Month 1, before new-business spend starts.</p>
+      <div class="months" id="weeks"></div>
+    </div>
+  </section>
+
+  <section id="measured" class="band" aria-labelledby="measured-h">
+    <div class="wrap two">
+      <div>
+        <h2 id="measured-h">Measured</h2>
+        <ul id="measured-list"></ul>
+      </div>
+      <div>
+        <h2>Not measured</h2>
+        <ul id="not-measured-list"></ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>Prepared by Santiago for Genuine Solutions Distribution. Planning material, not legal advice. Synthetic test data only; nothing on this page connects to Shopify or Meta.</p>
+  </div>
+</footer>
+<script type="module" src="app.mjs"></script>
+</body>
+</html>
